@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/petlitskaya-victoria-portfolio/static/css/main.588b942a.chunk.css",
+    "main.js": "/petlitskaya-victoria-portfolio/static/js/main.953ee367.chunk.js",
+    "main.js.map": "/petlitskaya-victoria-portfolio/static/js/main.953ee367.chunk.js.map",
+    "runtime-main.js": "/petlitskaya-victoria-portfolio/static/js/runtime-main.e47b7f56.js",
+    "runtime-main.js.map": "/petlitskaya-victoria-portfolio/static/js/runtime-main.e47b7f56.js.map",
+    "static/js/2.c6a5a03f.chunk.js": "/petlitskaya-victoria-portfolio/static/js/2.c6a5a03f.chunk.js",
+    "static/js/2.c6a5a03f.chunk.js.map": "/petlitskaya-victoria-portfolio/static/js/2.c6a5a03f.chunk.js.map",
+    "static/js/3.5839cbac.chunk.js": "/petlitskaya-victoria-portfolio/static/js/3.5839cbac.chunk.js",
+    "static/js/3.5839cbac.chunk.js.map": "/petlitskaya-victoria-portfolio/static/js/3.5839cbac.chunk.js.map",
+    "index.html": "/petlitskaya-victoria-portfolio/index.html",
+    "static/css/main.588b942a.chunk.css.map": "/petlitskaya-victoria-portfolio/static/css/main.588b942a.chunk.css.map",
+    "static/js/2.c6a5a03f.chunk.js.LICENSE.txt": "/petlitskaya-victoria-portfolio/static/js/2.c6a5a03f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e47b7f56.js",
+    "static/js/2.c6a5a03f.chunk.js",
+    "static/css/main.588b942a.chunk.css",
+    "static/js/main.953ee367.chunk.js"
+  ]
+}
