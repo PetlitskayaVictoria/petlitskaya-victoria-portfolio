@@ -1,0 +1,57 @@
+@import 'src/components/common/styles/sass/variables';
+@import 'src/components/common/styles/sass/mixins';
+
+.footerBlock {
+  width: 100%;
+  height: auto;
+  background-color: $bgColorPrimary;
+  padding: 90px 0 60px;
+  @media screen and (max-width: 1040px) {
+    padding: 70px 0 40px;
+  }
+
+  .footerContainer {
+    width: 100%;
+    height: auto;
+    margin: 0 0 0 -30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: $textColorPrimary;
+    @media screen and (max-width: 1040px) {
+      display: block;
+      margin: 0;
+    }
+
+    .data {
+      @media screen and (max-width: 1040px) {
+        margin-bottom: 15px;
+      }
+
+      span {
+        @include text(montserrat, 19px, 500, $textColorPrimary, 2.1);
+        display: block;
+        letter-spacing: .8px;
+      }
+
+      .socialNetwork {
+        width: 30px;
+        height: 30px;
+        margin: 0 20px 0 0;
+        display: inline-block;
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+

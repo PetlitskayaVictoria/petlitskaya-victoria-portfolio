@@ -1,0 +1,101 @@
+@import 'src/components/common/styles/sass/variables';
+@import 'src/components/common/styles/sass/mixins';
+
+.mainBlock {
+  height: 100vh;
+  position: relative;
+
+  .background {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    .leftPart {
+      width: 33%;
+      height: 100%;
+      background-color: $bgColorPrimary;
+      position: absolute;
+      top: 0;
+      left: 0;
+      @media screen and (max-width: 1040px) {
+        width: 0%;
+      }
+    }
+
+    .rightPart {
+      width: 100%;
+      height: 100%;
+      padding-left: 33%;
+      background-color: $bgColorSecondary;
+      @media screen and (max-width: 1040px) {
+        padding-left: 0;
+      }
+
+      .inner {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .photo {
+          width: 400px;
+
+          img {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+
+  .textContainer {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+
+    .name {
+      -webkit-text-stroke: 1px $themeColor;
+      @include text(montserrat, 120px, 900, transparent, 1.1);
+      @media screen and (max-width: 1040px) {
+        -webkit-text-stroke: 1.5px $themeColor;
+        font-size: 50px;
+      }
+    }
+
+    .surname {
+      @include text(montserrat, 120px, 900, $themeColor, 1.1);
+      @media screen and (max-width: 1040px) {
+        font-size: 43px;
+      }
+    }
+
+    h2 {
+      text-transform: uppercase;
+      margin: 0;
+      padding: 0;
+    }
+
+    span {
+      @include text(montserrat, 15px, 600, $textColorSecondary, 2.1);
+      letter-spacing: .8px;
+      display: inline-block;
+      padding-top: 10px;
+      @media screen and (max-width: 1040px) {
+        color: $themeColor;
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,5 +1,7 @@
 import React from 'react';
-import styles from './Skill.module.css'
+import { H3 } from '../../common/components/H3/H3';
+import styles from './Skill.module.scss'
+import Paragraph from "../../common/components/Paragraph/Paragraph";
 
 type SkillType = {
     skillTitle: string
@@ -10,8 +12,10 @@ const Skill = (props: SkillType) => {
     return (
         <div className={styles.skillContainer}>
             <div className={styles.icon}></div>
-            <h3>{props.skillTitle}</h3>
-            <span>{props.description}</span>
+            <div className={styles.details}>
+                <H3 title={props.skillTitle}/>
+                <Paragraph summary={props.description} />
+            </div>
         </div>
     )
 }

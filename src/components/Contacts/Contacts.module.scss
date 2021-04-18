@@ -1,0 +1,76 @@
+@import 'src/components/common/styles/sass/variables';
+@import 'src/components/common/styles/sass/mixins';
+
+.contactsBlock {
+  width: 100%;
+  min-height: 100vh;
+  background-color: $bgColorSecondary;
+  padding-bottom: 200px;
+  padding-top: 255px;
+  @media screen and (max-width: 1040px) {
+    padding: 95px 0 105px;
+    min-height: auto;
+  }
+
+  .description {
+    max-width: 50%;
+    padding-top: 95px;
+    @media screen and (max-width: 1040px) {
+      padding-top: 35px;
+      max-width: 100%;
+    }
+  }
+
+  .form {
+    padding-top: 43px;
+    width: 50%;
+    @media screen and (max-width: 1040px) {
+      width: 100%;
+    }
+
+    form {
+      input, textarea {
+        @include text(montserrat, 13px, 400, $textColorPrimary, 1.6);
+        width: 100%;
+        border: 1px solid rgba(0, 0, 0, .2);
+        padding: 10px;
+        background-color: $bgColorPrimary;
+        border-radius: 10px;
+      }
+
+      .inputField {
+        width: 100%;
+        margin: 0 0 30px;
+
+        input {
+          height: 44px;
+        }
+      }
+
+      textarea {
+        height: 120px;
+        resize: none;
+        margin-bottom: 20px;
+      }
+
+      .sendMessage {
+        @include text(mulish, 19px, 400, #fff, 2.1);
+        text-decoration: none;
+        background-color: $themeColor;
+        padding: 13px 50px;
+        display: inline-block;
+        border-radius: 50px;
+        border: 2px solid $themeColor;
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+
+

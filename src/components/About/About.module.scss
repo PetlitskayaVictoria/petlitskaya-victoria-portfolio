@@ -1,0 +1,93 @@
+@import 'src/components/common/styles/sass/variables';
+@import 'src/components/common/styles/sass/mixins';
+
+.aBoutContainer {
+  width: 100%;
+  min-height: 100vh;
+  margin-bottom: 193px;
+  padding-top: 280px;
+  @media screen and (max-width: 1040px) {
+    padding-top: 180px;
+    margin-bottom: 93px;
+  }
+
+  .textBlock {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    @media screen and (max-width: 1040px) {
+      flex-direction: column;
+      align-items: baseline;
+    }
+
+    .left {
+      width: 40%;
+      @media screen and (max-width: 1040px) {
+        width: 100%;
+        margin-bottom: 50px;
+        display: flex;
+        justify-content: center;
+      }
+
+      img {
+        min-width: 10%;
+        border-radius: 5px;
+        max-width: 400px;
+        @media screen and (max-width: 1040px) {
+          width: 100%;
+        }
+      }
+    }
+
+    .right {
+      width: 60%;
+      padding-left: 100px;
+      @media screen and (max-width: 1040px) {
+        width: 100%;
+        padding-left: 0;
+      }
+
+      .name {
+        width: 100%;
+        border-bottom: 1px solid rgba(0, 0, 0, .2);
+        padding-bottom: 35px;
+        margin-bottom: 32px;
+
+        .jobTitle {
+          @include text(montserrat, 15px, 600, $textColorSecondary, 2.1);
+          letter-spacing: .8px;
+          display: inline-block;
+          padding-top: 10px;
+        }
+      }
+
+      .text {
+        width: 100%;
+        margin-bottom: 18px;
+      }
+
+      .download {
+        @include text(mulish, 19px, 400, #fff, 2.1);
+        text-decoration: none;
+        background-color: $themeColor;
+        padding: 13px 50px;
+        display: inline-block;
+        border-radius: 50px;
+        border: 2px solid $themeColor;
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+

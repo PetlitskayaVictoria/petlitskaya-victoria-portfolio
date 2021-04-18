@@ -1,0 +1,10 @@
+@import "src/components/common/styles/sass/variables.sass";
+@import "src/components/common/styles/sass/mixins.scss";
+
+.titleH3 {
+  h3 {
+    @include text(montserrat, 20px, 600, $textColorPrimary, 1.4);
+    margin: 0 0 10px;
+    letter-spacing: .8px;
+  }
+}

@@ -1,0 +1,11 @@
+@import '../../styles/sass/variables';
+@import 'src/components/common/styles/sass/mixins';
+
+.summary {
+  p {
+    @include text(mulish, 15px, 400, $textColorSecondary, 2.1);
+    letter-spacing: .8px;
+    word-wrap: break-word;
+  }
+}
+

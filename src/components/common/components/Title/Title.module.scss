@@ -1,0 +1,29 @@
+@import '../../styles/sass/variables';
+@import 'src/components/common/styles/sass/mixins';
+
+.title {
+  h2 {
+    margin: 0;
+    position: relative;
+    @include text(montserrat, 35px, 900, $themeColor, 1.4);
+    letter-spacing: .8px;
+    text-transform: uppercase;
+    @media screen and (max-width: 1040px) {
+      font-size: 30px;
+    }
+
+    .subtitle {
+      position: absolute;
+      left: 0;
+      top: 0;
+      @include text(montserrat, 150px, 900, transparent, 0);
+      opacity: .1;
+      -webkit-text-stroke: 1px #000;
+      -webkit-user-select: none;
+      @media screen and (max-width: 1040px) {
+        display: none;
+      }
+    }
+  }
+}
+

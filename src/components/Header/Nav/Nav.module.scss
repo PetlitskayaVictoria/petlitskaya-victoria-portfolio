@@ -1,0 +1,28 @@
+@import 'src/components/common/styles/sass/variables';
+@import 'src/components/common/styles/sass/mixins';
+
+.navContainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+
+  .menu {
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    @media screen and (max-width: 1040px) {
+      justify-content: space-around;
+    }
+
+    a {
+      text-decoration: none;
+      @include text(montserrat, 15px, 600, $textColorPrimary, 2.1);
+      letter-spacing: .8px;
+    }
+  }
+}
+
+
+
+
