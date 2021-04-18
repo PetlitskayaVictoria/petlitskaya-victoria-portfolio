@@ -9,6 +9,7 @@
   @media screen and (max-width: 1040px) {
     padding-top: 180px;
     margin-bottom: 93px;
+    min-height: auto;
   }
 
   .textBlock {
@@ -26,8 +27,6 @@
       @media screen and (max-width: 1040px) {
         width: 100%;
         margin-bottom: 50px;
-        display: flex;
-        justify-content: center;
       }
 
       img {
