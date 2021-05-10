@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/petlitskaya-victoria-portfolio/static/css/main.5afcfc7f.chunk.css",
-    "main.js": "/petlitskaya-victoria-portfolio/static/js/main.982e22c6.chunk.js",
-    "main.js.map": "/petlitskaya-victoria-portfolio/static/js/main.982e22c6.chunk.js.map",
+    "main.js": "/petlitskaya-victoria-portfolio/static/js/main.0b55c0d0.chunk.js",
+    "main.js.map": "/petlitskaya-victoria-portfolio/static/js/main.0b55c0d0.chunk.js.map",
     "runtime-main.js": "/petlitskaya-victoria-portfolio/static/js/runtime-main.6219bbcb.js",
     "runtime-main.js.map": "/petlitskaya-victoria-portfolio/static/js/runtime-main.6219bbcb.js.map",
     "static/js/2.57b4b4a3.chunk.js": "/petlitskaya-victoria-portfolio/static/js/2.57b4b4a3.chunk.js",
@@ -12,18 +12,19 @@
     "index.html": "/petlitskaya-victoria-portfolio/index.html",
     "static/css/main.5afcfc7f.chunk.css.map": "/petlitskaya-victoria-portfolio/static/css/main.5afcfc7f.chunk.css.map",
     "static/js/2.57b4b4a3.chunk.js.LICENSE.txt": "/petlitskaya-victoria-portfolio/static/js/2.57b4b4a3.chunk.js.LICENSE.txt",
+    "static/media/counter.cf1a78e3.jpg": "/petlitskaya-victoria-portfolio/static/media/counter.cf1a78e3.jpg",
     "static/media/facebook.2ca05ac4.svg": "/petlitskaya-victoria-portfolio/static/media/facebook.2ca05ac4.svg",
     "static/media/instagram.f0cfa30d.svg": "/petlitskaya-victoria-portfolio/static/media/instagram.f0cfa30d.svg",
     "static/media/linkedin.03f1d164.svg": "/petlitskaya-victoria-portfolio/static/media/linkedin.03f1d164.svg",
     "static/media/mainPhoto.1c444f9a.jpg": "/petlitskaya-victoria-portfolio/static/media/mainPhoto.1c444f9a.jpg",
     "static/media/secondaryPhoto.08bf594a.jpg": "/petlitskaya-victoria-portfolio/static/media/secondaryPhoto.08bf594a.jpg",
-    "static/media/social-network.c6299d6e.jpeg": "/petlitskaya-victoria-portfolio/static/media/social-network.c6299d6e.jpeg",
-    "static/media/todolist.d1de8814.jpeg": "/petlitskaya-victoria-portfolio/static/media/todolist.d1de8814.jpeg"
+    "static/media/social-network.5ddf9790.jpg": "/petlitskaya-victoria-portfolio/static/media/social-network.5ddf9790.jpg",
+    "static/media/todolist.92d4bd2e.jpg": "/petlitskaya-victoria-portfolio/static/media/todolist.92d4bd2e.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.6219bbcb.js",
     "static/js/2.57b4b4a3.chunk.js",
     "static/css/main.5afcfc7f.chunk.css",
-    "static/js/main.982e22c6.chunk.js"
+    "static/js/main.0b55c0d0.chunk.js"
   ]
 }
