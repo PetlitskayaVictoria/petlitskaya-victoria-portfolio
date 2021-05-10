@@ -2,9 +2,9 @@ import React from 'react';
 import styles from './Projects.module.scss';
 import containerStyles from '../common/styles/Container.module.scss';
 import Project from "./Project/Project";
-import todoListImage from './../../assets/images/todolist.jpeg';
-import socialNetworkImage from './../../assets/images/social-network.jpeg';
-import counterImage from './../../assets/images/counter.jpeg';
+import todoListImage from './../../assets/images/todolist.jpg';
+import socialNetworkImage from './../../assets/images/social-network.jpg';
+import counterImage from './../../assets/images/counter.jpg';
 import {Title} from '../common/components/Title/Title';
 
 const Projects = () => {
