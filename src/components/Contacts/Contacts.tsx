@@ -3,11 +3,13 @@ import styles from './Contacts.module.scss';
 import containerStyles from '../common/styles/Container.module.scss';
 import {Title} from '../common/components/Title/Title';
 import Paragraph from '../common/components/Paragraph/Paragraph';
-
+// @ts-ignore
+import Fade from "react-reveal/Fade";
 
 const Contacts = () => {
     return (
-        <div className={styles.contactsBlock}>
+        <div id="contacts" className={styles.contactsBlock}>
+            <Fade bottom>
             <div className={containerStyles.container}>
                 <div className={styles.contacts}>
                     <Title title="Get in touch" subtitle="Contact"/>
@@ -35,6 +37,7 @@ const Contacts = () => {
                     </div>
                 </div>
             </div>
+            </Fade>
         </div>
     )
 }

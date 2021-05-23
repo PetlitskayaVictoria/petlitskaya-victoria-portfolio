@@ -2,10 +2,13 @@ import React from 'react';
 import styles from './Main.module.scss';
 import containerStyles from '../common/styles/Container.module.scss';
 import mainImage from './../../assets/images/mainPhoto.jpg';
+// @ts-ignore
+import Fade from 'react-reveal/Fade';
 
 const Main = () => {
     return (
-        <div className={styles.mainBlock}>
+        <div id="main" className={styles.mainBlock}>
+            <Fade bottom>
             <div className={styles.background}>
                 <div className={styles.leftPart}></div>
                 <div className={styles.rightPart}>
@@ -24,6 +27,7 @@ const Main = () => {
                 </div>
 
             </div>
+            </Fade>
         </div>
     )
 }

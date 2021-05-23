@@ -19,6 +19,15 @@
       text-decoration: none;
       @include text(montserrat, 15px, 600, $textColorPrimary, 2.1);
       letter-spacing: .8px;
+      cursor: pointer;
+
+      &:hover {
+        color: $themeColor;
+      }
+    }
+
+    .active {
+      color: $themeColor;
     }
   }
 }

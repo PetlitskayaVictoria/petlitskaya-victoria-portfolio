@@ -3,10 +3,13 @@ import styles from './Skills.module.scss';
 import containerStyles from '../common/styles/Container.module.scss';
 import Skill from './Skill/Skill';
 import Title from '../common/components/Title/Title';
+// @ts-ignore
+import Fade from 'react-reveal/Fade';
 
 const Skills = () => {
     return (
-        <div className={styles.skillsBlock}>
+        <div id="skills" className={styles.skillsBlock}>
+            <Fade bottom>
             <div className={`${containerStyles.container} ${styles.skillsContainer}`}>
                 <Title title="Skills" subtitle="Technologies"/>
                 <div className={styles.skills}>
@@ -24,6 +27,7 @@ const Skills = () => {
                            description={"Nullam a eros porta, imperdiet mi vitae, tempor tellus. Ut luctus, neque eget ultrices malesuada, neque mi sollicitudin diam, sit amet rhoncus tortor purus eget est. "}/>
                 </div>
             </div>
+            </Fade>
         </div>
     )
 }

@@ -4,10 +4,13 @@ import containerStyles from '../common/styles/Container.module.scss';
 import secondaryPhoto from './../../assets/images/secondaryPhoto.jpg';
 import Title from '../common/components/Title/Title';
 import Paragraph from '../common/components/Paragraph/Paragraph';
+// @ts-ignore
+import Fade from 'react-reveal/Fade';
 
 const About = () => {
     return (
-        <div className={styles.aBoutContainer}>
+        <div id="about" className={styles.aBoutContainer}>
+            <Fade bottom>
             <div className={containerStyles.container}>
                 <div className={styles.textBlock}>
                     <div className={styles.left}>
@@ -32,6 +35,7 @@ const About = () => {
                     </div>
                 </div>
             </div>
+            </Fade>
         </div>
     )
 }
