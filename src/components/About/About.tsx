@@ -23,14 +23,7 @@ const About = () => {
                         </div>
                         <div className={styles.text}>
                             <Paragraph
-                                summary="Quisque aliquet tempus eros, sed consequat libero volutpat quis. Sed vitae quam magna. Praesent eget enim sit amet mauris convallis malesuada."/>
-                            <Paragraph
-                                summary="Mauris vitae dignissim nunc, vitae facilisis nibh. Ut vitae ornare tellus, in dignissim lacus. Aliquam erat volutpat. Nulla viverra risus quis tempor cursus. Vestibulum sagittis dapibus lorem, vel scelerisque arcu congue et. Quisque id ipsum fringilla mauris ultrices suscipit ac vitae neque. Quisque aliquam lorem venenatis quam hendrerit porttitor."/>
-                        </div>
-                        <div className={styles.buttonContainer}>
-                            <a href="" className={styles.download}>
-                                <span>Download CV</span>
-                            </a>
+                                summary="Young energetic front-end developer looking for the opportunities to grow professionally. Having 4-year background in the IT field as a QA engineer I have a deep understanding of all the software development processes and how Agile projects are run. Taking part in the whole software life cycle and permanent desire to learn something new helped me to realize that the role of the front-end developer will help me fulfill my potential, develop my capabilities and enjoy the job I am doing every day. Working in the international teams I developed good communication skills and a friendly attitude to everyone around."/>
                         </div>
                     </div>
                 </div>

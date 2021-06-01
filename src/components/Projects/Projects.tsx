@@ -21,15 +21,18 @@ const Projects = () => {
                 <div className={styles.projects}>
                     <Project title={"Social Network"}
                              style={socialNetworkImg}
-                             summary={"Pellentesque efficitur urna in tristique porttitor. Nam fringilla metus sed imperdiet egestas. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed euismod risus sit amet laoreet porttitor. Vestibulum nec urna nulla. Nullam pretium eros in rutrum dictum. Aliquam rutrum diam id auctor pretium."}/>
+                             link={"https://PetlitskayaVictoria.github.io/social-network"}
+                             summary={"Social Network is an online platform that allows people to create an account and interact with other people on the website. Users can build there virtual world on the site, make friends and share their thoughts and ideas by writing a post."}/>
 
                     <Project title={"ToDo List"}
                              style={todolistImg}
-                             summary={"Pellentesque efficitur urna in tristique porttitor. Nam fringilla metus sed imperdiet egestas. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed euismod risus sit amet laoreet porttitor. Vestibulum nec urna nulla. Nullam pretium eros in rutrum dictum. Aliquam rutrum diam id auctor pretium."}/>
+                             link={"https://PetlitskayaVictoria.github.io/todo_list_ts"}
+                             summary={"ToDo List is an online platform for organizing your personal or work tasks which can help you to increase the productivity, prioritise tasks, manage tasks effectively and improve time management."}/>
 
                     <Project title={"Counter"}
                              style={counterImg}
-                             summary={"Pellentesque efficitur urna in tristique porttitor. Nam fringilla metus sed imperdiet egestas. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed euismod risus sit amet laoreet porttitor. Vestibulum nec urna nulla. Nullam pretium eros in rutrum dictum. Aliquam rutrum diam id auctor pretium."}/>
+                             link={"https://PetlitskayaVictoria.github.io/counter"}
+                             summary={"Counter is a test project which (to tell the truth) doesn't have a lot of practical use. It allows to do some settings which influence on the way how the counter works."}/>
                 </div>
             </div>
             </Fade>

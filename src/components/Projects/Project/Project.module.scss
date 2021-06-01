@@ -22,12 +22,20 @@
     a {
       width: 100px;
       cursor: pointer;
-      background-color: $themeColor;
+      background-color: $bgColorSecondary;
       border-radius: 5px;
       text-decoration: none;
       padding: 3px;
       text-align: center;
       @include text(mulish, 15px, 400, #fff, 2.1);
+      color: $themeColor;
+      &:hover {
+        opacity: 0.9;
+      }
+
+      &:active {
+        opacity: 0.8;
+      }
     }
   }
 

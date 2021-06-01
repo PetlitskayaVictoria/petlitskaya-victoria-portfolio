@@ -61,8 +61,27 @@
         display: inline-block;
         border-radius: 50px;
         border: 2px solid $themeColor;
+        cursor: pointer;
+        &:hover {
+          opacity: 0.7;
+        }
+
+        &:active {
+          opacity: 0.9;
+        }
       }
     }
+  }
+  .notification {
+    margin-top: 40px;
+    padding: 10px;
+    border: 1px solid $themeColor;
+    border-radius: 50px;
+    text-align: center;
+    @include text(montserrat, 13px, 400, $textColorPrimary, 1.6);
+  }
+  .error {
+    border: 1px solid #f78383;
   }
 }
 
