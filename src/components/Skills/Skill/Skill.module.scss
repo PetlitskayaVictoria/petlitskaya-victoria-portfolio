@@ -5,6 +5,9 @@
   position: relative;
   display: flex;
   align-items: center;
+  @media screen and (max-width: 1040px) {
+    margin-top: 30px;
+  }
 
   .icon {
     position: absolute;

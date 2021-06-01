@@ -1,7 +1,6 @@
 import React from 'react';
 import { H3 } from '../../common/components/H3/H3';
 import styles from './Skill.module.scss'
-import Paragraph from "../../common/components/Paragraph/Paragraph";
 
 type SkillType = {
     skillTitle: string
