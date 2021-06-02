@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/petlitskaya-victoria-portfolio/static/css/main.440ef21d.chunk.css",
-    "main.js": "/petlitskaya-victoria-portfolio/static/js/main.67e66f95.chunk.js",
-    "main.js.map": "/petlitskaya-victoria-portfolio/static/js/main.67e66f95.chunk.js.map",
+    "main.js": "/petlitskaya-victoria-portfolio/static/js/main.31a88c14.chunk.js",
+    "main.js.map": "/petlitskaya-victoria-portfolio/static/js/main.31a88c14.chunk.js.map",
     "runtime-main.js": "/petlitskaya-victoria-portfolio/static/js/runtime-main.7cad71ca.js",
     "runtime-main.js.map": "/petlitskaya-victoria-portfolio/static/js/runtime-main.7cad71ca.js.map",
     "static/js/2.dbd4d77a.chunk.js": "/petlitskaya-victoria-portfolio/static/js/2.dbd4d77a.chunk.js",
@@ -26,6 +26,6 @@
     "static/js/runtime-main.7cad71ca.js",
     "static/js/2.dbd4d77a.chunk.js",
     "static/css/main.440ef21d.chunk.css",
-    "static/js/main.67e66f95.chunk.js"
+    "static/js/main.31a88c14.chunk.js"
   ]
 }
