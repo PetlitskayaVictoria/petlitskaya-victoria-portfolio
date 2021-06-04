@@ -11,9 +11,6 @@
     width: 400px;
     display: flex;
     justify-content: space-between;
-    @media screen and (max-width: 400px) {
-      display: none;
-    }
 
     a {
       text-decoration: none;
@@ -29,6 +26,10 @@
     .active {
       color: $themeColor;
     }
+  }
+
+  @media screen and (max-width: 450px) {
+    display: none;
   }
 }
 
