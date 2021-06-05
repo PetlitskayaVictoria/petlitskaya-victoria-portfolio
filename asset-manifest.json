@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/petlitskaya-victoria-portfolio/static/css/main.113664dd.chunk.css",
-    "main.js": "/petlitskaya-victoria-portfolio/static/js/main.77dbd3b6.chunk.js",
-    "main.js.map": "/petlitskaya-victoria-portfolio/static/js/main.77dbd3b6.chunk.js.map",
+    "main.js": "/petlitskaya-victoria-portfolio/static/js/main.5bbb0691.chunk.js",
+    "main.js.map": "/petlitskaya-victoria-portfolio/static/js/main.5bbb0691.chunk.js.map",
     "runtime-main.js": "/petlitskaya-victoria-portfolio/static/js/runtime-main.76e7d475.js",
     "runtime-main.js.map": "/petlitskaya-victoria-portfolio/static/js/runtime-main.76e7d475.js.map",
     "static/js/2.4790a7af.chunk.js": "/petlitskaya-victoria-portfolio/static/js/2.4790a7af.chunk.js",
@@ -12,7 +12,7 @@
     "index.html": "/petlitskaya-victoria-portfolio/index.html",
     "static/css/main.113664dd.chunk.css.map": "/petlitskaya-victoria-portfolio/static/css/main.113664dd.chunk.css.map",
     "static/js/2.4790a7af.chunk.js.LICENSE.txt": "/petlitskaya-victoria-portfolio/static/js/2.4790a7af.chunk.js.LICENSE.txt",
-    "static/media/burger.baa9f4c3.svg": "/petlitskaya-victoria-portfolio/static/media/burger.baa9f4c3.svg",
+    "static/media/burger.fa83a494.svg": "/petlitskaya-victoria-portfolio/static/media/burger.fa83a494.svg",
     "static/media/counter.cf1a78e3.jpg": "/petlitskaya-victoria-portfolio/static/media/counter.cf1a78e3.jpg",
     "static/media/facebook.2ca05ac4.svg": "/petlitskaya-victoria-portfolio/static/media/facebook.2ca05ac4.svg",
     "static/media/github.22cfdd1c.png": "/petlitskaya-victoria-portfolio/static/media/github.22cfdd1c.png",
@@ -27,6 +27,6 @@
     "static/js/runtime-main.76e7d475.js",
     "static/js/2.4790a7af.chunk.js",
     "static/css/main.113664dd.chunk.css",
-    "static/js/main.77dbd3b6.chunk.js"
+    "static/js/main.5bbb0691.chunk.js"
   ]
 }
